@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+
+<Form version="1.3" maxVersion="1.9" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+    <SyntheticProperty name="generateCenter" type="boolean" value="false"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="25" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="558" max="-2" attributes="0"/>
+                      <Component id="txtCetakStruk" min="-2" pref="121" max="-2" attributes="0"/>
+                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="1" attributes="0">
+                          <Group type="102" attributes="0">
+                              <Group type="103" groupAlignment="1" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="32767" attributes="0"/>
+                                      <Component id="btnFormDashboard" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" attributes="0">
+                                      <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                      <Component id="txtIdProduk" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="txtID" min="-2" pref="42" max="-2" attributes="0"/>
+                                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                                      <Component id="txtNamaProduk" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Component id="txtproduk" min="-2" pref="54" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="txtHarga" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace max="-2" attributes="0"/>
+                                      <Component id="txtharga" min="-2" pref="56" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="18" max="-2" attributes="0"/>
+                                      <Component id="txtJumlah" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Component id="btnFormProduk" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" attributes="0">
+                                      <Component id="txtjumlah" min="-2" pref="56" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="jLabel3" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="0" pref="0" max="-2" attributes="0"/>
+                                      <Component id="jDateChooser1" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="1" attributes="0">
+                                      <Component id="btnFormLaporanTransaksi" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace min="-2" pref="63" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                          <Group type="102" alignment="1" attributes="0">
+                              <EmptySpace min="0" pref="35" max="32767" attributes="0"/>
+                              <Group type="103" groupAlignment="0" attributes="0">
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="txtTotal" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="txttotal" min="-2" pref="79" max="-2" attributes="0"/>
+                                  </Group>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtJumlahBayar" min="-2" max="-2" attributes="0"/>
+                                          <Component id="txtKembalian" min="-2" max="-2" attributes="0"/>
+                                      </Group>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Group type="103" groupAlignment="0" attributes="0">
+                                          <Component id="txtbayar" alignment="0" min="-2" pref="83" max="-2" attributes="0"/>
+                                          <Component id="txtkembalian" alignment="0" min="-2" pref="84" max="-2" attributes="0"/>
+                                      </Group>
+                                  </Group>
+                                  <Component id="jScrollPane1" min="-2" pref="679" max="-2" attributes="0"/>
+                                  <Group type="102" alignment="0" attributes="0">
+                                      <Component id="btnTambah" min="-2" max="-2" attributes="0"/>
+                                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                                      <Component id="btnBatal" min="-2" max="-2" attributes="0"/>
+                                  </Group>
+                              </Group>
+                          </Group>
+                      </Group>
+                      <EmptySpace min="-2" pref="8" max="-2" attributes="0"/>
+                      <Component id="btnLogout" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="6" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="jLabel1" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFormDashboard" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnLogout" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFormLaporanTransaksi" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnFormProduk" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" alignment="0" groupAlignment="3" attributes="0">
+                      <Component id="txtIdProduk" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtID" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="jLabel3" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtHarga" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtjumlah" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtNamaProduk" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtproduk" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtJumlah" alignment="3" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtharga" alignment="3" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="jDateChooser1" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="btnTambah" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="btnBatal" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+              <Component id="jScrollPane1" min="-2" pref="223" max="-2" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtTotal" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txttotal" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtbayar" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtJumlahBayar" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtKembalian" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtkembalian" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="0" attributes="0">
+                      <EmptySpace min="-2" pref="30" max="-2" attributes="0"/>
+                      <Component id="txtCetakStruk" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace pref="209" max="32767" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JLabel" name="jLabel1">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="FORM TRANSAKSI"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtIdProduk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="ID Produk :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtID">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtIDKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="jLabel3">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tanggal :"/>
+      </Properties>
+    </Component>
+    <Component class="com.toedter.calendar.JDateChooser" name="jDateChooser1">
+    </Component>
+    <Component class="javax.swing.JButton" name="btnTambah">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Tambah"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnTambahActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnBatal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Batal"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnBatalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtTotal">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Total :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txttotal">
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txttotalActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="txtCetakStruk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Cetak Struk"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="txtCetakStrukActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtJumlahBayar">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jumlah Bayar :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtKembalian">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Kembalian :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtkembalian">
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtbayar">
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtbayarKeyPressed"/>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtbayarKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtHarga">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Harga :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtjumlah">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtjumlahKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtNamaProduk">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="nama produk :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtproduk">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txtprodukKeyReleased"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtJumlah">
+      <Properties>
+        <Property name="text" type="java.lang.String" value="Jumlah :"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="txtharga">
+      <Events>
+        <EventHandler event="keyReleased" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="txthargaKeyReleased"/>
+      </Events>
+    </Component>
+    <Container class="javax.swing.JScrollPane" name="jScrollPane1">
+      <AuxValues>
+        <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+      </AuxValues>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+      <SubComponents>
+        <Component class="javax.swing.JTable" name="tabelTransaksi">
+          <Properties>
+            <Property name="model" type="javax.swing.table.TableModel" editor="org.netbeans.modules.form.editors2.TableModelEditor">
+              <Table columnCount="4" rowCount="4">
+                <Column editable="true" title="Title 1" type="java.lang.Object"/>
+                <Column editable="true" title="Title 2" type="java.lang.Object"/>
+                <Column editable="true" title="Title 3" type="java.lang.Object"/>
+                <Column editable="true" title="Title 4" type="java.lang.Object"/>
+              </Table>
+            </Property>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Component class="javax.swing.JButton" name="btnFormDashboard">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Dashboard"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFormDashboardActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnFormLaporanTransaksi">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Form Laporan Transaksi"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFormLaporanTransaksiActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnFormProduk">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="cc" green="ff" red="0" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Form Produk"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnFormProdukActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btnLogout">
+      <Properties>
+        <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
+          <Color blue="0" green="0" red="ff" type="rgb"/>
+        </Property>
+        <Property name="text" type="java.lang.String" value="Logout"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnLogoutActionPerformed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>
